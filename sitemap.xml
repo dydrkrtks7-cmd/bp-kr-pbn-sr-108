@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https:///</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/posts/checklist-001-13e2dyp.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https:///about.html</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/posts/myth-002-13e2dyp.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/posts/review-002-ohtf3i.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/posts/t3link-001-ohtf3i.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https:///feed.xml</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
 </urlset>

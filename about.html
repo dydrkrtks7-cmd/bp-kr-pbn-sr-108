@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서울 을지로나이트 | 정보 가이드</title>
+    <meta name="description" content="을지로 클럽 방문 전 필수 체크리스트와 지역별 분위기 분석. 거리형 디자인 시스템과 함께 엄선된 정보를 제공합니다.">
+    <meta name="keywords" content="을지도 가이드, 서울 클럽 정보, 을지로 5가 분위기, 을지로 6가 정보, 나이트라이프">
+    <link rel="canonical" href="https://www.yourdomain.com/">
+    
+    <!-- Social Media Meta -->
+    <meta property="og:title" content="서울 을지로나이트 | 정보 가이드">
+    <meta property="og:description" content="을지로 클럽 방문 전 필수 체크리스트와 지역별 분위기 분석. 거리형 디자인 시스템과 함께 엄선된 정보를 제공합니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- CSS Core System -->
+    <style>
+        :root {
+            --bg-color: #0f1115;
+            --surface-color: #1a1d23;
+            --text-main: #ffffff;
+            --text-muted: #8b9bb4;
+            --accent-color: #FFD700; /* Gold for authoritative feel */
+            --border-thick: 2px solid var(--text-main);
+            --border-neon: 1px solid #FF4D00;
+            --font-display: 'Oswald', sans-serif;
+            --font-body: 'Montserrat', sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Typography & Utilities */
+        h1, h2, h3 { font-family: var(--font-display); text-transform: uppercase; letter-spacing: -0.5px; }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .highlight-text { color: var(--accent-color); font-weight: 700; }
+        
+        /* Navigation (Simulated for context) */
+        nav {
+            position: sticky; top: 0; z-index: 999;
+            background: rgba(15, 17, 21, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: var(--border-thick);
+            padding: 1rem 0;
+        }
+        
+        .nav-inner { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; border: 2px solid var(--text-main); padding: 0.5rem 1rem; }
+
+        /* Hero Section */
+        header.hero {
+            padding: 6rem 0;
+            background-image: radial-gradient(circle at 80% 20%, rgba(255, 77, 0, 0.1) 0%, transparent 40%);
+            border-bottom: 1px solid var(--text-muted);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-title-group h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .hero-meta {
+            display: flex; gap: 2rem;
+            font-size: 0.9rem; color: var(--text-muted);
+            border-top: 1px solid var(--surface-color);
+            padding-top: 1rem; margin-top: 3rem;
+        }
+
+        /* Info Card Section */
+        .section-info { padding: 4rem 0; }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .info-card {
+            background: var(--surface-color);
+            border: 1px solid #333;
+            padding: 2rem;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+        }
+
+        .card-icon {
+            font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-muted);
+            position: absolute; top: 20px; right: 20px; opacity: 0.5;
+        }
+
+        .info-card h3 { font-size: 1.25rem; margin-bottom: 0.75rem; text-transform: uppercase; border-bottom: 1px dashed var(--text-muted); padding-bottom: 0.5rem; display: inline-block;}
+        
+        /* Detailed Data Table / List */
+        .data-list { list-style: none; }
+        .data-list li {
+            margin-bottom: 1rem; padding-left: 2rem; position: relative; border-left: 3px solid var(--text-muted);
+        }
+        .data-list strong { color: var(--accent-color); font-weight: 600; display: block; margin-bottom: 0.3rem;}
+
+        /* FAQ / Accordion Style (Visual only for this static) */
+        .faq-block { background: #14171c; padding: 2rem; border-left: 4px solid var(--text-main); margin-top: 3rem; }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
+            h1 { font-size: 2.5rem !important; }
+        }
+        
+        .btn-action {
+            display: inline-block; margin-top: 2rem; padding: 1rem 3rem; background: transparent; border: 2px solid var(--text-main); color: var(--text-main); text-decoration: none; font-weight: 700; text-transform: uppercase; transition: all 0.3s;
+        }
+        .btn-action:hover { background: var(--text-main); color: #000; cursor: pointer;}
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">Street Brutalism.</a>
+            <div style="font-size: 1.2rem; font-weight: bold;">MENU</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-title-group">
+                <h1><span class="highlight-text">이것은</span> 데이터 기반의<br>클럽 정보입니다.</h1>
+                <p style="font-size: 1.1rem; color: var(--text-muted); max-width: 600px;">
+                    을지로 지역 내 주요 나이트라이프 시설의 위치, 분위기, 진입 조건 등을 엄선했습니다.<br>
+                    단순한 평점보다는 현장 감각에 기반한 기술적 분석을 제공합니다.
+                </p>
+            </div>
+
+            <ul class="data-list">
+                <li><strong>지역:</strong> 서울 성동구 / 을지로 5가, 6가 일대</li>
+                <li><strong>업종:</strong> 클럽 / 바 / 라이브하우스 (Mix)</li>
+                <li><strong>핵심 키워드:</strong> 노이즈, 테크노/디스โก้, 밤 문화 밀집도</li>
+            </ul>
+
+            <a href="#detailed-info" class="btn-action">상ᄉ세 정보 보러가기</a>
+        </div>
+    </header>
+
+    <!-- Main Content: Detailed Info -->
+    <section id="detailed-info" class="section-info">
+        <div class="container">
+            <h2 style="font-size: 2rem; margin-bottom: 1.5rem; text-transform: uppercase;">Region Analysis<br><span style="color: var(--text-muted); font-size: 1.5rem;">지역 분석 및 필수 가이드</span></h2>
+
+            <!-- Grid for Key Attributes -->
+            <div class="card-grid">
+                <!-- Card 1 -->
+                <article class="info-card">
+                    <span class="card-icon">01</span>
+                    <h3>동선 & 위치</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">
+                        을지로나이트라이프의 중심은 '을지로 4가'에서 시작합니다. 
+                        지하철 2호선/6호선 을지로입구역 인근을 따라 클럽과 바들이 밀집해 있는 '골목길 네트워크'를 형성하고 있습니다.<br><br>
+                        주요 동선은 을지로1, 3, 5가 순환 도로와 연결ᄃ돼며, 야간에는 보행자가 유동적입니다.
+                    </p>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="info-card">
+                    <span class="card-icon">02</span>
+                    <h3>분위기 (Vibe)</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">
+                        단순한 '장소'가 아닌 '경험'이 핵심인 지역입니다.<br><br>
+                        외부로 드러나는 네온 사인과 거리 풍경을 통해 시각적 자극을 제공하며, 내부 공간은 테크노와 디스곡의 리듬에 맞춰 설계된 경우가 많습니다. 소음 공해를 유발하는 지역으로 분류돼나, 이를 즐기는 문화가
+</body>
+</html>
