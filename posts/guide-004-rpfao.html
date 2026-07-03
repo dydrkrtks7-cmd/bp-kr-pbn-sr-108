@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프로덕션이 진동할 때, 나는 을지로 클럽 솔직후기를 봤다</title>
+  <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/posts/guide-004-rpfao.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>프로덕션이 진동할 때, 나는 을지로 클럽 솔직후기를 봤다</h1>
+    <article>
+      <p><IMAGE placement="hero" alt="Q4_K_M 양자화 및 LLM 인스트럭션 폴로잉 디버깅 현장" q4_k_m,quantization,micro_operation,attention_sink,debugging,silent_regression,llm_inference,developer_diary,office_night,code_review,q4_k_m:1.3></p>
+<p>오전 3 시의 사무실, 냉커피 한 잔과 함께 화면이 붉게 비추기 시작했습니다. 프로덕션 배포 후 3 개월 만에 찾아온 그 '서린 레그레션'은 전혀 예고 없이, 마치 밤중에 갑자기 음악이 끊기는 것처럼 조용히 성능을 갉아먹었습니다. 나의 기분이 그날부터 어두워졌죠. 단순히 코드가 버그가 아니라, 특정 히든 딤(hidden dim) 이 양자화 과정에서 잘려나가는 미세한 구조적 문제였습니다.</p>
+<p>## **문제 진단: 잘린 숨소리와 주의력 싱크**</p>
+<p>구체적으로 Q4_K_M 에서 인스트럭션 토큰이 처리되는 공간인 키-밸류 캐시가 예상치 못하게 축소된 상태였습니다. 이는 트랜스포머의 기본 층을 넘어서, 맥락을 유지하는 기억 조각 중 일부가 압축으로 인해 사라진 결과입니다. 마치 클럽에서 가장 중요한 리듬을 담당하던 기저음이 잘려나간 것처럼, 모델이 명령어를 이해하는 능력이 서서히 마비되는 현상이 발생했습니다.</p>
+<p>## **실행 단계: 을지로의 숨은 규칙과 같은 디버깅**</p>
+<p>이 문제를 해결하기 위해 저는 단순한 로그 확인을 넘어, 맥락 처리 공간의 할당량을 역으로 추적해야 했습니다. 이때 떠올랐던 건 '을지로 클럽 솔직후기'였습니다. 외부에서 보기에 화려해 보이는 분위기 뒤에 숨겨진 간접 규칙들이 전체 경험을 좌우하듯, 모델 내부에서도 보이지 않는 변수가 성능을 결정했기 때문입니다. 리뷰를 꼼꼼히 보는 것처럼, 양자화 전의 메모리 레이아웃을 한 번 더 스캔해야 했습니다.</p>
+<p>## **실패 방지: 다음 배포 전 확인 체크리스트**</p>
+<p>다음에 비슷한 상황이 올 때를 대비해 몇 가지 구체적인 기준을 먼저 세우기로 했습니다. 첫 번째는 인스트럭션 토큰이 포함된 배치의 주의력 가중치 분포를 반드시 모니터링하는 것입니다. 두 번째로는 양자화 후 특정 히든 차원이 0 에 가깝게 떨어지지 않도록 여유 공간을 확보해야 합니다. 이는 단순히 파일을 압축하는 행위가 아니라, 모델의 '기분'을 그대로 유지할 수 있는 여건이 되어야 한다는 뜻입니다.</p>
+<p>결국 독자가 자신의 상황에 대입하기 위해 필요한 것은 배포 전 시뮬레이션 단계에서의 주의력 토큰 감시 여부입니다. 모델이 얼마나 예민하게 반응하는지, 그리고 그 미세한 변화가 실제 서비스 경험에 어떻게 영향을 미치는지를 미리 파악할 수 있다면, 다시 같은 밤의 소란을 겪을 일은 줄어들 것입니다.</p>
+    </article>
+  </main>
+</body>
+</html>

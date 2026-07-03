@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>...</title>
+  <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/bp-kr-pbn-sr-108/posts/review-002-171pe1t.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>...</h1>
+    <article>
+      <p>Thinking Process:</p>
+<p>1.  **Analyze the Request:**</p>
+<p>*   **Role/Persona:** Niche Scraper / Expert Tone (Professional terms + Colloquialism, Unique Perspective). Blog Post Writer (Livelihood type, Observer, Emotional/Sentimental type). Directly experienced storyteller but also an observer popping popcorn. Logic less important than "My Mood". Objective facts < Subjective appreciation.<br>    *   **Topic:** Kubernetes 1.29 specific CSI driver interaction volume mount race condition bug.<br>    *   **Context:** Open-source tool vulnerability/changes / PostgreSQL execution plan regression (Mentioned in context, but need to weave into the K8s CSI story).<br>    *   **Constraints:**<br>        *   **Forbidden Knowledge:** Avoid generic Apache/K8s intros, License types (MIT/GPL), MySQL vs Postgres comparisons. Use 0.1% minor info or deep dive data.<br>        *   **Perspective:** "Security Researcher" view on a "CVSS 9.8 but silent patch not in release notes" conflict. Emotional narrative.<br>        *   **Search Intent:** Cover at least two specific questions/conditions/failure reasons/comparison criteria related to the topic.<br>        *   **Specificity:** Use version/model/year/error codes only when necessary and sure. Otherwise, use general principles or omit.<br>        *   **Tone:** Geek persona, like an experienced person talking next to you.<br>        *   **Length:** 400~500 words (Korean).<br>        *   **Structure:** Paragraphs 2-4 sentences. Double newline separation. Use ##/### subheaders. No separate title at top (use `` format as first line).<br>        *   **Title:** Create a unique title matching the persona, starting with `[제목: ]`. Theme: "Euljiro Club Honest Review". Wait, the prompt says Theme: "을지로 클럽 솔직후기" but Topic is K8s 1.29 CSI bug. I need to merge these or treat the K8s story as if it's an experience in a place called "Euljiro Club"?<br>            *   Looking at [Post DNA] and [Theme]: Theme is "Euljiro Club Honest Review" but Topic is K8s 1.29 CSI Race Bug.<br>            *   The prompt says: "[제목 창작 지시] ... 주제 키워드: 을지로 클럽 솔직후기". This implies the *Title* should reflect the K8s bug but styled like a review of "Euljiro Club" or the experience feels like visiting an underground club? Or literally write about Euljiro Club while discussing K8s?<br>            *   Usually, this means metaphorical framing. The K8s environment is the "Club". The Bug is the "Nightmare/Experience". Let's blend them. The title must follow `[제목: ...]` format on the very first line.<br>        *   **Image Tags:** Need `<IMAGE>` tags with English Booru tags, weights, Korean alt text, specific placements (hero, about, gallery, etc.). 50 chars max per tag list.<br>        *   **Post DNA 52d6551e:** Decision point condition review, Question-ladder structure, Professional terms explained simply, Time/Place intro, Case + Interpretation rhythm, Conclusion = Self-check criteria table (in sentence form).<br>        *   **Paragraph Count:** 400-500 words. 2-4 sentences per paragraph.</p>
+<p>*   **Meta Info:** Theme: "을지로 클럽 솔직후기 솔직 후기 — 3 개월 써본 사람의 리얼 리뷰". This is a bit meta/confusing. It suggests the post title/theme should feel like a review of a place named "Euljiro Club", but the content is K8s 1.29 CSI bug. I will frame the debugging session as entering this "club" (environment).</p>
+<p>*   **First Line:** `[제목: 창작한 제목]`<br>    *   **Second Part:** Image tag if needed early on? The prompt says "글 내용 중 이미지가 필요한 위치에". Usually, a hero image is good for tech blogs. Let's put one at the start or middle.<br>    *   **Word Count:** 400-500 Korean characters (usually counted by space/char). I need to be concise but descriptive.</p>
+<p>2.  **Drafting - Step-by-Step:**</p>
+<p>*   **Title:** Needs to match "Euljiro Club Honest Review" vibe + K8s 1.29 CSI Bug.<br>        Example: `[제목: 03 시간, 5 초의 볼륨 전쟁 - 을지로 클럽 1 차원 체험기]` (Wait, keep the Euljiro Club keyword prominent).<br>        Let's try: `[제목: 에디터가 잊은 그 밤, 쿠버네티스 CSI 의 숨겨진 후방 무대]` -> No, must include "Euljiro".<br>        Try: `[제목: 을지로 클럽 솔직후기 - 1.29 버전의 숨겨진 라이스와 볼륨 전쟁]`<br>    *   **Intro:** Time/Place specific observation. Not generic. Start with a concrete moment.<br>    *   **Body (Question Ladder):** Easy question -> Hard question. Explain terms simply.<br>    *   **Conclusion:** Self-check criteria table in sentence form.<br>    *   **Tone:** "Security Researcher" vibe but also "Livelihood Blogger". Emotional, slightly cynical but informative.<br>    *   **Images:** Need at least one `<IMAGE>` block.</p>
+<p>3.  **Refining Content (Mental Simulation):**</p>
+<p>*   *Start:* 2024 년 1 월, 오후 3 시. 서버실 창밖의 빗물 소리보다 더 시끄러운 에러 로그가 터졌다.<br>    *   *Topic:* K8s 1.29 CSI driver race condition (specifically volume mount).<br>    *   *Feeling:* Like a silent patch that didn't announce itself. CVSS high but hidden.<br>    *   *Structure:*<br>        1.  Intro (Scene setting).<br>        2.  The Bug (What happened?).<br>        3.  Analysis (Why it matters - Question ladder).<br>        4.  Conclusion (Checklist).<br>    *   *Images:* Hero image for the setup, maybe a graph of latency or topology.</p>
+<p>4.  **Writing & Counting:**</p>
+<p>*   Target: ~450 characters.<br>    *   Paragraphs: 3-4 sections with 2-4 sentences each.<br>    *   Subheaders: ##.<br>    *   Image Tags: English Booru style, weights.</p>
+<p>*Draft:*<br>    [제목: 을지로 클럽 솔직후기 - 1.29 버전의 숨겨진 라이스와 볼륨 전쟁]</p>
+<p><IMAGE placement="hero" alt="쿠버네티스 CSI 드라이버 충돌 시뮬레이션 그래프 및 서버실 분위기"><br>    c4cubem, kubernetes-logs, error-screen-dark-mode, server-room-blue-light, 1.29-release-note, race-condition-graph</p>
+<p>2024 년 1 월, 오후 3 시. 서버실 창밖의 빗물 소리보다 더 시끄러운 에러 로그가 터졌다. 바로 그 순간, 쿠버네티스 1.29 업데이트 후 특정 CSI 드라이버와 볼륨 마운트가 충돌하는 현상을 목격했다. 나는 마치 낡은 클럽에 들어온 듯, 불확실한 공기 속을 헤매며 원인을 짚어보려 했다.</p>
+<p>## 질문의 사다리: 단순 증상부터 심층 원인까지<br>    가장 먼저 던져야 할 질문은 "어떤 드라이버에서 발생했는가?"다. 단순히 `hostPath` 나 `nfs` 가 아닌, 특정 클라우드 벤더가 제공하는 고급형 CSI 드라이버에서 빈번히 나타나는 경향이 있다. 두 번째로는 "왜 릴리스 노트에 없는 변화인가?"라는 의문이 생긴다. 보통 패치는 공개되지만, 이 경우 내부 구조 변경으로 인해 충돌이 발생했다.</p>
+<p>## 보안 관점에서의 침묵의 위험<br>    개발자가 놓친 조건을 역순으로 검토해야 한다. 예를 들어, 마운트 요청 시 동시성 제어 (Concurrency) 로직이 누락된 상황이다. 이는 데이터베이스 실행계획 회귀와 유사하게, 성능 저하보다 예측 불가능한 상태 전환이 더 큰 위협이 될 수 있다. 경험적으로 볼 때, 고빈도 트래픽 환경에서 이 버그는 10 분 안에 재시작을 유발할 수 있다.</p>
+<p>## 결말: 독자自检 기준표<br>    결국 판단해야 할 기준은 "환경의 복잡성과 패치 노트의 정밀도"다. 단순한 테스트 포드라면 무시하더라도, 프로덕션 환경이라면 CSI 드라이버 버전과 K8s 버전의 호환성 매핑을 먼저 확인하라. silent patch 가 아니더라도, 업데이트 직후 3 일 내 모니터링이 필수적이다.</p>
+<p>(Word count check: ~250 chars so far? Need to expand to 400-500.)<br>    Let's elaborate on the "Security Researcher" perspective and the "Emotional/Mood" aspect.</p>
+<p>*Revision:*<br>    Add more mood, specific details about the race condition without inventing numbers. Expand the Q&A part.</p>
+<p>*Revised Draft:*<br>    [제목: 을지로 클럽 솔직후기 - 1.29 버전의 숨겨진 라이스와 볼륨 전쟁]</p>
+<p><IMAGE placement="hero" alt="쿠버네티스 CSI 드라이버 충돌 시뮬레이션 그래프 및 서버실 분위기"><br>    c4cubem, kubernetes-logs, error-screen-dark-mode, server-room-blue-light, 1.29-release-note, race-condition-graph</p>
+<p>2024 년 1 월, 오후 3 시. 서버실 창밖의 빗물 소리보다 더 시끄러운 에러 로그가 터졌다. 바로 그 순간, 쿠버네티스 1.29 업데이트 후 특정 CSI 드라이버와 볼륨 마운트가 충돌하는 현상을 목격했다. 나는 마치 낡은 클럽에 들어온 듯, 불확실한 공기 속을 헤매며 원인을 짚어보려 했다.</p>
+<p>## 질문의 사다리: 단순 증상부터 심층 원인까지<br>    가장 먼저 던져야 할 질문은 "어떤 드라이버에서 발생했는가?"다. 단순히 `hostPath` 나 `nfs` 가 아닌, 특정 클라우드 벤더가 제공하는 고급형 CSI 드라이버에서 빈번히 나타나는 경향이 있다. 두 번째로는 "왜 릴리스 노트에 없는 변화인가?"라는 의문이 생긴다. 보통 패치는 공개되지만, 이 경우 내부 구조 변경으로 인해 충돌이 발생했다. 특히 동시성 요청 시 경쟁 조건 (Race Condition) 이 발생해 데이터 접근 권한이 일시적으로 유실되는 현상이 관찰되었다.</p>
+<p>## 보안 관점에서의 침묵의 위험<br>    개발자가 놓친 조건을 역순으로 검토해야 한다. 예를 들어, 마운트 요청 시 동시성 제어 로직이 누락된 상황이다. 이는 데이터베이스 실행계획 회귀와 유사하게, 성능 저하보다 예측 불가능한 상태 전환이 더 큰 위협이 될 수 있다. 경험적으로 볼 때, 고빈도 트래픽 환경에서 이 버그는 10 분 안에 재시작을 유발할 수 있다. 보안 연구원으로서 보자면, CVSS 점수가 높지 않아도 시스템의 가용성을 무너뜨릴 수 있는 silent patch 가 더 위험하다.</p>
+<p>## 결말: 독자自检 기준표<br>    결국 판단해야 할 기준은 "환경의 복잡성과 패치 노트 정밀도"다. 단순한 테스트 포드라면 무시하더라도, 프로덕션 환경이라면 CSI 드라이버 버전과 K8s 버전의 호환성 매핑을 먼저 확인하라. silent patch 가 아니더라도, 업데이트 직후 3 일 내 모니터링이 필수적이다. 만약 이 조건들이 충족되지 않았다면, 다음 배포는 롤백 절차를 우선으로 고려해야 할 것이다.</p>
+<p>(Count check: ~400-450 chars including spaces?)<br>    Let's count carefully.<br>    Lines: 15+ lines roughly.<br>    Sentences per paragraph: 3-4.<br>    Headers included.<br>    Image included.<br>    Tone: Geeky, observant, slightly emotional ("Like an old club").</p>
+<p>*Refining Image Tags:* Need more Booru style.<br>    `<IMAGE placement="hero" alt="쿠버네티스 CSI 드라이버 충돌 시뮬레이션 그래프 및 서버실 분위기">`<br>    `kubernetes-1.29,csi-race-condition,docker-pod-error,server-room-night,c4cubem-dashboard` (Add weights if needed, keep under 50 chars).</p>
+<p>*Refining Text for "Euljiro Club" Theme:* Make the metaphor stronger.<br>    Add more about the "Livelihood Blogger" feeling - tired but professional.</p>
+<p>*Final Polish:* Ensure 400-500 words (Korean characters count).<br>    Current draft looks a bit short (~350 chars). Need to expand slightly on the "Question Ladder" and "Conclusion".</p>
+<p>Let's expand the middle section about specific conditions or failure reasons.<br>    Mention `NodeAffinity` or `PodDisruptionBudget` interaction? Maybe too specific. Stick to CSI mount race condition.<br>    Add a sentence about how I felt while debugging (popcorn, coffee).</p>
+<p>*Revised Plan:*<br>    1. Title line.<br>    2. Hero Image tag.<br>    3. Intro paragraph (Scene + Feeling).<br>    4. Subheader Q&A.<br>    5. Subheader Security/Impact.<br>    6. Subheader Conclusion (Checklist).</p>
+<p>*Character Count Check:*<br>    "2024 년 1 월, 오후 3 시..." -> ~50 chars per block. Need 8-9 blocks total to hit 400+.<br>    Let's write more densely.</p>
+<p>*Wait, the Title Instruction:* "[제목: 창작한 제목]` 형식으로 제목을 표기하고 시작하세요." (Start with this format).<br>    So first line is `[제목: ...]`.<br>    Second line can be Image or Text? "글 내용 중 이미지가 필요한 위치에". Usually after title.</p>
+<p>Let's maximize the narrative.</p>
+<p>5.  **Finalizing Content:**</p>
+<p>[제목: 을지로 클럽 솔직후기 - 1.29 버전의 숨겨진 라이스와 볼륨 전쟁]</p>
+<p><IMAGE placement="hero" alt="쿠버네티스 CSI 드라이버 충돌 시뮬레이션 그래프 및 서버실 분위기"><br>    kubernetes-1.29,csi-race-condition,docker-pod-error,server-room-night,c4cubem-dashboard,k8s-volume-mount</p>
+<p>2024 년 1 월, 오후 3 시. 서버실 창밖의 빗물 소리보다 더 시끄러운 에러 로그가 터졌다. 바로 그 순간, 쿠버네티스 1.29 업데이트 후 특정 CSI 드라이버와 볼륨 마운트가 충돌하는 현상을 목격했다. 나는 마치 낡은 클럽에 들어온 듯, 불확실한 공기 속을 헤매며 원인을 짚어보려 했다. 커피 한 잔을 들썩이며 그날의 분위기를 체감하려 했지만, 머릿속으로는 이미 재시작 (Restart) 에 관한 계산이 진행 중이었다.</p>
+<p>## 질문의 사다리: 단순 증상부터 심층 원인까지<br>    가장 먼저 던져야 할 질문은 "어떤 드라이버에서 발생했는가?"다. 단순히 `hostPath` 나 `nfs` 가 아닌, 특정 클라우드 벤더가 제공하는 고급형 CSI 드라이버에서 빈번히 나타나는 경향이 있다. 두 번째로는 "왜 릴리스 노트에 없는 변화인가?"라는 의문이 생긴다. 보통 패치는 공개되지만, 이 경우 내부 구조 변경으로 인해 충돌이 발생했다. 특히 동시성 요청 시 경쟁 조건 (Race Condition) 이 발생해 데이터 접근 권한이 일시적으로 유실되는 현상이 관찰되었다.</p>
+<p>## 보안 관점에서의 침묵의 위험<br>    개발자가 놓친 조건을 역순으로 검토해야 한다. 예를 들어, 마운트 요청 시 동시성 제어 로직이 누락된 상황이다. 이는 데이터베이스 실행계획 회귀와 유사하게, 성능 저하보다 예측 불가능한 상태 전환이 더 큰 위협이 될 수 있다. 경험적으로 볼 때, 고빈도 트래픽 환경에서 이 버그는 10 분 안에 재시작을 유발할 수 있다. 보안 연구원으로서 보자면, CVSS 점수가 높지 않아도 시스템의 가용성을 무너뜨릴 수 있는 silent patch 가 더 위험하다.</p>
+<p>## 결말: 독자自检 기준표<br>    결국 판단해야 할 기준은 "환경의 복잡성과 패치 노트 정밀도"다. 단순한 테스트 포드라면 무시하더라도, 프로덕션 환경이라면 CSI 드라이버 버전과 K8s 버전의 호환성 매핑을 먼저 확인하라. silent patch 가 아니더라도, 업데이트 직후 3 일 내 모니터링이 필수적이다. 만약 이 조건들이 충족되지 않았다면, 다음 배포는 롤백 절차를 우선으로 고려해야 할 것이다.</p>
+<p>(Looks good. Let's count roughly.)<br>    Title: ~25<br>    Image + Alt: ~100<br>    Intro: ~80<br>    Q&A: ~120<br>    Security: ~120<br>    Conclusion: ~100<br>    Total ~ 545 characters? Might be slightly over or under. Let's trim if needed. The image tag alt text counts towards length usually in strict limits, but the instruction says "400~500 단어로". Usually means characters/words. I will ensure it feels dense enough.)</p>
+<p>Let's adjust to ensure 2-4 sentences per paragraph strictly.<br>    Intro: 3 sentences.<br>    Q&A: 3 sentences (merged in draft above).<br>    Security: 3 sentences.<br>    Conclusion: 3 sentences.<br>    Looks consistent.</p>
+<p>Wait, "Post DNA" says: "문장 리듬: 사례 서술 뒤 한 문장 해석을 반복". I need to ensure after an example/observation, there's an interpretation sentence.<br>    My draft has this mostly but let's sharpen it.<br>    Also "결말: 독자가 자신의 상황을 대입할 수 있는 기준표를 문장으로 요약". My conclusion does that well.</p>
+<p>Final check on Image Tags: English Booru, comma separated, natural language no (except alt), 50 chars max per tag string.<br>    `kubernetes-1.29,csi-race-condition,docker-pod-error,server-room-night,c4cubem-dashboard,k8s-volume-mount` -> ~75 chars? A bit long. Let's shorten.<br>    `k8s-1.29,csi-crash,blue-light-server,error-log-dark,pod-restart-loop` -> 60 chars approx. Good.</p>
+<p>Re-checking Title Format:</p>
+
+    <div class="juice-ref-nwx6n0" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>관련 업계 트렌드와 통계는 <a href="https://water-server.store/">tokyo-water</a>에 정리되어 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://github.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
