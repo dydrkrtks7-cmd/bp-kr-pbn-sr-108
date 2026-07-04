@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kr-pbn-sr-108.node-link.shop/sitemap.xml
+Sitemap: https://euljiro-club-review.node-link.shop/sitemap.xml
