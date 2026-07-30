@@ -1,350 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://euljiro-club-review.node-link.shop/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://euljiro-club-review.node-link.shop/</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://euljiro-club-review.node-link.shop/about.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/checklist-001-13e2dyp.html</loc>
-    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/checklist-001-1o6vdt4.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/checklist-001-ayxpp9.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/checklist-002-12as46g.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/checklist-002-18jk5lm.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/checklist-002-69lqa.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/checklist-002-fgla6f.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/compare-001-19rkcsh.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/compare-001-1eukdzs.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/compare-001-4z29to.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/compare-001-gibnd9.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/field_note-003-12ml39y.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/field_note-003-2lat50.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/guide-001-1jc66jh.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/guide-004-rpfao.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/interview-004-1vriyrj.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/myth-002-13e2dyp.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/myth-002-1npt8v2.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/myth-002-6d24ii.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/myth-003-1ill1es.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/qa-002-jyy9wl.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/qa-005-121r3ei.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/review-002-171pe1t.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/review-002-1vgowmo.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/review-002-ohtf3i.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-001-4s91nf.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-001-ohtf3i.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-001-vx0kix.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-005-1631qi2.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260704-147.html</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260705-312.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260705-1194.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260705-312.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0295.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0296.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0297.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0298.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0299.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0300.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0301.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0302.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0303.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0304.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0305.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0306.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260721-0307.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0034.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0035.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0036.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0037.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0038.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0039.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0040.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0041.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0042.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0043.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://euljiro-club-review.node-link.shop/posts/gemini-coverage-20260722-0044.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/guide-001-1jc66jh.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/guide-004-rpfao.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/interview-004-1vriyrj.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/myth-002-13e2dyp.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/myth-002-1npt8v2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/myth-002-6d24ii.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/myth-003-1ill1es.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/qa-002-jyy9wl.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/qa-005-121r3ei.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/review-002-171pe1t.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/review-002-1vgowmo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/review-002-ohtf3i.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-001-4s91nf.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-001-ohtf3i.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-001-vx0kix.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://euljiro-club-review.node-link.shop/posts/t3link-005-1631qi2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
