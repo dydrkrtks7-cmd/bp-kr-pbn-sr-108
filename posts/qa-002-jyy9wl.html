@@ -28,7 +28,7 @@
 <h2>##<br>이 현상을 이해하려면 <code>을지로 클럽 솔직후기</code> 같은 맥락이 필요합니다. 사람들이 클럽에 갈 때 "지금 분위기 괜찮을까?"라고 궁금해하는 것처럼, 서버 운영자는 캐시 상태가 진짜로 반영되었는지 실시간으로 확인하지 못합니다. 내가 알 수 없는 인파가 몰리는 클럽처럼, 트래픽이 예상치 못한 엣지에서 정체될 때의 불확실성이 문제입니다.</h2>
 <p><img src="../assets/FluxProfile_00015_.webp" alt="Cloudflare edge cache propagation delay visualization" loading="lazy" width="1344" height="768"></p>
 <p>버전별 차이보다는 엣지 위치의 물리적 거리와 로딩 조건을 관찰해야 합니다. 특히 Lightsail CPU 크레딧 사용 패턴과 연동하면 왜 이런 지연이 발생하는지 감이 옵니다. 캐시 무효화 명령이 내린 후, 다음 단계에서 무엇을 체크할 수 있을까요? 결국 중요한 건 실행 전 마지막 확인입니다.</p>
-<p>1. 해당 엣지 노드의 TTL 설정값을 다시 한번 검증했는지.<br>2. 트래픽 급증 시点在의 백엔드 모니터링 대상을 좁혀두었는지.<br>3. 지연 시간을 수용 가능한 서비스 수준인지 판단 기준을 정했는지.</p>
+<p>1. 해당 엣지 노드의 TTL 설정값을 다시 한번 검증했는지.<br>2. 트래픽 급증 시점에서의의 백엔드 모니터링 대상을 좁혀두었는지.<br>3. 지연 시간을 수용 가능한 서비스 수준인지 판단 기준을 정했는지.</p>
 
     <div class="juice-ref-j2fytu" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
       <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
